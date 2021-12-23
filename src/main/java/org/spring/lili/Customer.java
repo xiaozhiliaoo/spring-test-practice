@@ -33,6 +33,10 @@ public class Customer {
                 id, firstName, lastName);
     }
 
+    private String mySecret() {
+        return "";
+    }
+
     public Long getId() {
         return id;
     }
